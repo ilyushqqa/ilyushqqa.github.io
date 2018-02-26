@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="All Coffee / Everything and everywhere in Riga">
+    <meta name="keywords" content="coffee, caffeine, html, lyfestyle, places">
+    <meta name="author" content="Ilya	Rastopchin">
+    <title>Coffee / About Coffee </title>
+    <link rel="stylesheet" href="./css/main.css">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="branding-logo">
+            <a href="index.html"><img class="branding-img" src="images/branding-cup.png"></a>
+        </div>
+        <div id="branding">
+            <h1><span class="highlight">All</span> Coffee </h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li class="current"><a href="aboutcoffee.html">About AllCoffee</a> </li>
+                <li><a href="places.html">Places</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section id="newsletter">
+    <div class="container">
+        <h1>Pieseko mūsu jauninājumiem</h1>
+        <form>
+            <input type="email" placeholder="Ieraksti e-mail...">
+            <button type="submit" class="button_1">Pieseko</button>
+        </form>
+
+    </div>
+</section>
+<section id="about">
+    <div class="left">
+        <h3>About Us</h3>
+        <p>We are there for you to know any place in Riga, where you can drink a cup of
+        of lovely coffee!</p>
+        <h3 >Contacts</h3>
+        <p>Number : +37120050926</p>
+        <p class="email">E-mail : <a href="https://mail.google.com/mail/u/0/#compose">i.rastopchins@gmail.com</a></p>
+</section>
+<section id="boxes" >
+    <div class="container">
+        <div class="box">
+            <img src="images/coffetranpng.png" width="100" height="100">
+            <h3>"You can do it."</h3>
+            <p>- Coffee </p>
+        </div>
+        <div class="box">
+            <img src="images/coffetranpng.png" width="100" height="100">
+            <h3>"Wanna hear a joke? Decaf."</h3>
+            <p>- Coffee </p>
+        </div>
+        <div class="box">
+            <img src="images/coffetranpng.png" width="100" height="100">
+            <h3>"A hug in a mug."</h3>
+            <p>- Coffee </p>
+        </div>
+    </div>
+</section>
+<section id="boxesdown">
+<div class="boxes">
+    <img src="images/question%20png.png" width="100">
+    <h1>
+            Interesting fact:
+        </h1>
+        <p>
+            "Legend has it that 9th century goat herders<br>
+            noticed the effect caffeine had on their goats, who appeared<br>
+            to "dance" after eating coffee berries. A local monk then made a<br>
+            drink with coffee berries and found that it<br>
+            kept him awake at night, thus<br>
+            the original cup<br>
+            of coffee was born."<br>
+        </p>
+</div>
+</section>
+<footer>
+    <div class="button_up">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Go up</button>
+
+        <script>
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("myBtn").style.display = "block";
+                } else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
+            }
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </div>
+    <p>All Coffee, Copyright &copy; 2018</p>
+</footer>
+</body>
+</html>
